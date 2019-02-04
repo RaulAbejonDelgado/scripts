@@ -1,0 +1,89 @@
+etrobando el editor vim
+*****Navegabilidad en el documento*****
+->  con el cursor 
+moverse a la izquierda -> h
+moverse a la derecha -> l
+moverse arriba -> k
+moverse abajo -> j
+*****Navegabilidad avanzada*****
+-> w <-nos saltamos al primer caracter de la siguiente palabra
+-> b <-retrocedemos al priemr caracter de la anterior palabra
+-> e <- como w pero nos situa en el ultimo caracter de la siguiente palabra
+-> ge <- como b nos situa en el ultimo caracter de la anterior palabra
+-> { <- Nos coloca al inicio de un parrafo
+-> } <- Nos coloca al final de un parrafo 
+*****gvim*****
+-> emulador vi con entorno grafico
+*****vim*****
+-> emulador vi sin entorno grafico
+*****Editar/crear archivo desde linea de comandos con editor UI*****
+-> gvim archivo
+*****Editar/crear archivo desde linea de comandos sin UI*****
+-> vim archivo 
+*****Para insertar texto*****
+-> i 
+*****Para guardar sin salir datos*****
+-> w
+*****Para salir guardando datos*****
+-> :x | :wq |
+*****Para salir sin guardar cambios*****
+-> :q
+*****Para salir del modo edicion*****
+-> crtl + c
+*****Inicio de linea*****
+-> 0 | tecla inicio
+*****Fin de linea*****
+-> $ | tecla fin
+*****Selecionar contenido*****
+-> v y con el cursor o las teclas de movimiento hariamos la operacion de "arrastrar" seleccionando dicho contenido
+*****Selecionar contenido por lineas*****
+-> V como seleccionar contenido , su diferencia esta mientras que v comienza a
+marcar desde el caracter donde se encuentre el cursor , mientras que V
+seleciona toda la linea independientemente de donde se encuentre el cursor
+***** Marcar el numero de lineas *****
+-> :set number
+****Eliminar n lineas desde donde esta el cursor*****
+-> : d3 (esto eliminara 3 lineas desde la posicion del cursor)
+*****Concatenar lineas*****
+-> : J | j
+***** Deshacer ultimos cambios *****
+-> : u
+***** Deshcer cambios en el tiempo *****
+-> :earlier 1h <- volvemos al estado del documento de hace una hora
+-> :later 10m <- Para avanzar 10 minutos
+***** Poner el cursor al final de la linea y pasar al modo inserccion ****
+ shift a
+***** Informacion sobre el fichero (n-lineas, n-columna )
+-> control + g
+*****Rangos*****
+*****Borrar lineas en un rango concreto*****
+2,25d <- borra las lineas 22 hasta el 25
+operaciones copiar/pegar
+Estos es una prueba para copiar y pegar codigo
+con varias lineas emulando un parrafo
+hay varias formas
+
+operaciones copiar/pegar
+Estos es una prueba para copiar y pegar codigo
+con varias lineas emulando un parrafo
+operaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+con varias lineas emulando un parrafooperaciones copiar/pegar
+iep
