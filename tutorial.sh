@@ -16,3 +16,22 @@ read -p 'Introduce nota el tercer numero: ' NUMERO3
 suma=$[ $NUMERO1 + $NUMERO2 + $NUMERO3 ]
 let media=suma/3
 echo "La media es $media"
+echo "desde vi , para habernos matado"
+echo "Uso de decimales"
+echo e.j media="$ (" echo"" "$"NUMERO1 "+ $"NUMERO2 "+ $"NUMERO3 "]"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
